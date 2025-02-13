@@ -10,7 +10,7 @@ This project analyzes the impact of financial news on stock market indices, focu
 2. Sentiment Analysis Module
   Preprocessing: News articles are preprocessed using URL removal, stop word removal, removing non-word and non-whitespace characters, 
   stemming, Lemmatization, tokenization and vectorization.
-  Model Selection: We evaluated multiple models to determine the best sentiment analyzer:
+  Model Selection: Evaluated multiple models to determine the best sentiment analyzer:
   Lexicon-based Models: VADER, finVADER
   Machine Learning Models: SVM (linear, RBF, polynomial, and sigmoid kernels), CatBoost
   Deep Learning Model: finBERT
@@ -19,7 +19,6 @@ This project analyzes the impact of financial news on stock market indices, focu
 3. Industry Classification Module
   Classification Categories: Articles are categorized into the following industries: auto, bank, financial services, FMCG, healthcare,IT, media, metal, pharmaceutical, realtor, consumer durables, and oil and gas.
   Classification Approach: Lexicon-based classification was implemented due to the absence of a labelled training dataset.
-  Lexicon-based classification due to lack of appropriate dataset to train a model.
 
 4. Data Integration Layer
   Combines sentiment scores and industry classifications with historical NIFTY index data. This enriched dataset facilitates time-series    analysis and prediction.
